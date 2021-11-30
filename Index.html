@@ -149,7 +149,7 @@ https://templatemo.com/tm-530-mini-profile
     <!-- End portfolio section -->
 
     <!-- Contact section -->
-    <div id="tmContact" class="parallax-window" data-parallax="scroll"  data-image-src="img/mini-profile-bg-02.jpg">
+    <div id="tmContact" class="parallax-window" data-parallax="scroll"  data-image-src="img/mini-profile-bg-02.jpg"alt="immagine presa da google">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
@@ -198,7 +198,7 @@ https://templatemo.com/tm-530-mini-profile
                   required
                 />
               </div>
-              <div class="form-group">
+             <!-- <div class="form-group">
                 <input
                   type="email"
                   id="contact_email"
@@ -224,7 +224,27 @@ https://templatemo.com/tm-530-mini-profile
                   class="btn tm-btn-submit rounded-0 text-white"
                 >
                   Submit
-                </button>
+                </button>-->
+                <!--<form action="https://formspree.io/f/mjvlbane" method="post">
+                  <label for="email">Email</label>
+                  <input name="Email" id="email" type="email">
+                  <button type="submit">Submit</button>
+                </form>-->
+                <form
+  action="https://formspree.io/f/mjvlbane"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
               </div>
             </form>
           </div>
