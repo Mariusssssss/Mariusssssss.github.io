@@ -85,6 +85,8 @@ a:hover {
   width: 100%;
 }
 
+.border_radius { border-radius: 20px 20px 20px 20px; }
+
 .tm-brand-container {
   padding: 75px 110px;
 }
